@@ -1,0 +1,221 @@
+*{margin: 0; padding: 0; box-sizing: border-box;  }
+
+    a{text-decoration: none;}
+
+    li{list-style: none;}
+
+    p{
+      font-size: 1.05rem;
+      line-height: 1.6;
+      font-weight: 500;
+      color: black;
+      padding: 20px;
+    }
+
+.body{
+  overflow-x: hidden;
+}
+/* NAVBAR */
+/* .navbar{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  background-color: rgba(0, 0, 0, 0.7)!important;
+} */
+.main-logo{
+  height: 4rem;
+  vertical-align: sub;
+  opacity: .95;
+  
+}
+
+.navbar{
+  height: 65px;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: rgba(255, 255, 255)!important;
+}
+
+.navbar li{
+font-weight: 600;
+padding: 10px; 
+
+}
+
+/* navbar ends */
+
+.header-section{
+  width: 100%;
+  height: 90vh;
+  text-align: center;
+  margin-top: 40px;
+  background-image: linear-gradient(rgba(231, 223, 182, 0.7), rgba(81,60,49, 0.5)), url(/Images/header_img.jpg);
+  background-size: 100% 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 100%, 50% 100%, 0 75%);
+}
+
+.center-div{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  padding: 0.5rem;
+}
+
+.header-buttons a{
+  border: 1px solid #000;
+  border-radius: 100px;
+  margin: 10px 20px;
+  padding: 12px 30px;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background-color: #513C31;
+
+}
+
+.header-buttons a:hover{
+  color: aliceblue;
+  box-shadow: 0 0 10px 0 #513C31;
+  text-decoration: none;
+}
+
+/* ***************** header ends******************* */
+
+
+
+/* Coding competitions */
+.featurette{
+margin-top: 100px;
+
+}
+
+/* Coding competitions ends */
+
+
+
+/* ************** Open Source **************** */
+.narrow {
+  width: 75%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 6rem;
+}
+
+.heading{
+  font-size: 1.8rem;
+  margin-bottom: 80px;
+}
+
+.heading::after{
+  content:"";
+  width: 10rem;
+  height: 0.5rem;
+  background-color: #513C31;
+  position: absolute;
+  bottom: -2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2rem;
+}
+
+  /* Anout us 2 */
+.about-extra{
+  width: 100%;
+  height: auto;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.extra-div{
+  background: white;
+  border: medium none;
+  padding: 15px!important;
+  border-radius: 3px;
+  transition: 0.2s;
+  text-align: center;
+  margin-bottom: 10px;
+}
+ .extra-div h2{
+  margin: 20px 0 15px 0;
+  font-size: 1.1rem;
+  font-weight:bold;
+  line-height: 1.1;
+  word-spacing: 4px;
+}
+
+.extra-div:hover{
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+  transform: translateY(-5px);
+} 
+/* ************** Open Source ends **************** */
+
+.heading2{
+  font-size: 1.8rem;
+  margin-bottom: 80px;
+}
+
+.heading2::after{
+  content:"";
+  width: 10rem;
+  height: 0.3rem;
+  background-color: #513C31;
+  position: absolute;
+  bottom: -2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2rem;
+}
+
+.about{
+  margin-bottom: 80px;
+}
+
+/* ********* footer ******* */
+
+.footer-main{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  background: #513C31;
+  padding: 20px 0px;
+}
+
+.footer-nav{
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.footer-nav ul{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.footer-nav ul li{
+  display: inline-block;
+  margin: 0px 5px;
+}
+
+.footer-nav ul li a{
+  font-size: 1rem;
+  color: #fff;
+}
+
+.footer-bottom{
+  text-align: center;
+}
+
+.footer-bottom a{
+  width: 100%;
+  height: 10px;
+  margin: auto;
+  color: #E7DFB6;
+}
+
+.footer-bottom a:hover{
+ color: rgb(255, 249, 249);
+}
