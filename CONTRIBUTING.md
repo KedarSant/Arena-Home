@@ -11,7 +11,7 @@ Contribution to this project is subject to the T&C mentioned in the license.
 3. Branch for each separate piece of work.
 4. Do the work, write good commit messages
 5. Push to your origin repository.
-6. Create a new PR in GitHub. Describe the changes made to the code properly.
+6. Create a new PR in GitHub. Describe the changes made to the code properly using our [Pull Request Template](pull_request_template.md).
 7. Wait for the code review feedback.
 
 # Other methods
