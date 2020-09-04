@@ -50,7 +50,7 @@ padding: 10px;
   height: 90vh;
   text-align: center;
   margin-top: 40px;
-  background-image: linear-gradient(rgba(231, 223, 182, 0.7), rgba(81,60,49, 0.5)), url(/Images/header_img.jpg);
+  background-image: linear-gradient(rgba(231, 223, 182, 0.7), rgba(81,60,49, 0.5)), url(Images/header_img.jpg);
   background-size: 100% 100%;
   clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 100%, 50% 100%, 0 75%);
 }
