@@ -1,3 +1,9 @@
+---
+name: Tracking issue
+about: Use this template for tracking new features.
+---
+
+
 # Feature - Request
 
 #### Motivation behind selecting this request (related to some problem, etc.)
