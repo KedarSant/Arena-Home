@@ -1,3 +1,9 @@
+---
+name: Bug - Report
+about: Use this template for reporting new bugs
+---
+
+
 # Bug - Report
 
 #### Type of Issue
