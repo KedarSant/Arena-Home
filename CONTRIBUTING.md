@@ -22,3 +22,4 @@ Github issues can be used for :
 2. Feature Requests
 3. Tracking ideas, enhancements
 4. Organize tasks
+5. Checklist
