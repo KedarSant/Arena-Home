@@ -1,6 +1,6 @@
 
 window.onload = function () {
-    let url = 'https://salty-plateau-83302.herokuapp.com/http://arena.siesgst.ac.in/api/contests';
+    let url = ' https://blooming-thicket-64006.herokuapp.com/http://arena.siesgst.ac.in/api/contests';
     fetch(url, {
         method: 'GET',
         mode : 'cors',
