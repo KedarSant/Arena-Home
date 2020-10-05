@@ -1,7 +1,7 @@
 # Arena-Home
 
 SIESGST Arena is the official Codechef chapter of SIESGST.
-[Arena-Home](https://surelyanushka.github.io/Arena-Home/) is a small site created for newcomers to understand the concept of SIESGST Arena, its objectives,
+[Arena-Home](https://kedarsant.github.io/Arena-Home/) is a small site created for newcomers to understand the concept of SIESGST Arena, its objectives,
 the types of activities and competitions it conducts.
 After going through the site, a newcomer will have a fairly good understanding of how SIESGST Arena works.
 
