@@ -3,17 +3,16 @@ window.onload = function () {
     let url = 'https://blooming-thicket-64006.herokuapp.com/http://arena.siesgst.ac.in/api/contests';
     fetch(url, {
         method: 'GET',
-        mode : 'cors',
+        mode: 'cors',
         headers: {
             'Accept': 'application/vnd.arena+json;version=1',
-            'Origin': 'https://kedarsant.github.io/Arena-Home/competitions.html'
         }
     }).then((res) => res.json())
         .then((data) => {
             let srmTable = document.getElementById("srmTable").getElementsByTagName('tbody')[0];
             let otherTable = document.getElementById("otherTable").getElementsByTagName('tbody')[0];
             let srm = data.filter(function (element) {
-                return element.code.substring(0,3) == 'SRM';
+                return element.code.substring(0, 3) == 'SRM';
             });
             let others = data.filter(function (element) {
                 return element.code.substring(0, 3) !== 'SRM';
